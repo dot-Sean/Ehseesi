@@ -16,6 +16,7 @@ while exit != True:
       print query
       result = twitter.search(q=query, result_type='recent', count=300)
       tweets = result['statuses']
+<<<<<<< HEAD
       # I created two dictionaries, one to sort tweets by how many followers the user hasand another to 
       # match that tweet id to the text and the expanded urls
       ordered_results = {}
@@ -44,6 +45,23 @@ while exit != True:
                         
         for k in link_dict[key]:
                           
+=======
+      ordered_results = {}
+      link_dict = {}
+      print result
+      count = 0
+      for tweet in tweets:
+        print tweet['user']['followers_count']
+        if tweet['user']['followers_count'] >= 10:
+          if len(tweet['entities']['urls'])>0:
+            parseThis = tweet['text']
+            ordered_results.setdefault(tweet['id'], tweet['user']['followers_count'])
+            link_dict.setdefault(tweet['id'],{}).setdefault(tweet['text'], tweet['entities']['urls'][0]['expanded_url'])
+      print link_dict
+      sorted_list = sorted(ordered_results.items(), key=itemgetter(1), reverse=True)
+      for key,value in sorted_list[:15]:
+        for k in link_dict[key]:
+>>>>>>> fa511a3f172cdc10062ffaac016fcac388e202cd
           print k
           print "***LINK*** :", link_dict[key][k]
 
