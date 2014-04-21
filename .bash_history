@@ -1,122 +1,3 @@
-git push origin blue
-jekyll serve --watch
-git checkout gh-pages
-git checkout blue
-git add .
-git commit -m "Made background blue"
-git checkout gh-pages
-jekyll serve --watch
-git checkout blue
-git commit
-git status
-git log
-cd
-cd simplehack
-python simple.py
-python simple.py
-git add simple.py
-git status
-git commit -m "Deleted bad syntax line"
-git push origin simplehack
-git branch blue
-git checkout blue
-git add css/layout.css
-git add layout.css
-git add css/layout.css
-git add static/css/layout.css
-git commit -m "Changed background color"
-git push origin blue
-git push Heroku master
-git push heroku master
-python simple.py
-cd spring2014
-cd _posts
-git add _posts/2014-02-27-zbaySimple2.md
-git add _posts/2014-02-27-zbaySimple2.md
-git add 2014-02-27-zbaySimple2.md
-git commit -m "Added my second Simple post."
-git push origin gh-pages
-cd
-cd spring2014
-git add _/posts/2014-02-27-zbaySimple2.md
-git add _posts/2014-02-27-zbaySimple2.md
-git commit -m "Added to correct directory"
-git push origin gh-pages
-git add _posts/2014-02-27-zbaySimple2.md
-git commit -m "Changed the post name to the correct one"
-git push origin gh-pages
-cd spring2014
-jekyll serve --watch
-cd spring2014
-git branch
-git pull origin gh-pages
-pit pull upstream gh-pages
-git pull upstream gh-pages
-git pull upstream gh-pages
-git branch branching-test
-git checkout branching-test
-git add .
-git commit -m "Added test post"
-git log
-git checkout gh-pages
-git log
-git checkout branching-test
-jekyll serve --watch
-jekyll serve --watch
-jekyll serve --watch
-git status
-jekyll serve --watch
-cd spring2014
-git status
-git log
-git commit -m "Fixed name"
-git add .
-git commit -m "Fixed name"
-jekyll serve --watch
-git checkout gh-pages
-git branch another-branch
-git branch
-git checkout another-branch
-git branch
-git log
-git add .
-git commit -m "Made second test post, changed title of first one"
-jekyll serve --watch
-git push origin another-branch
-git clone https://github.com/silshack/pipes.git
-cd git
-cd pipes
-git status
-pwd
-ls molecules
-cd molecules
-wc *.pdb
-wc -1
-wc-1
-wc - 1
-cd pipes
-cd molecules
-wc *.pdb
-ls
-wc -l
-cd pipes
-cd molecules
-wc -l *.pdb
- wc -l *.pdb > lengths
-ls > ls_output
-cat lengths
-sort lengths
-sort lengths > sorted_lengths
-sort -n lengths
-head -1 sorted-lengths
-sort lengths > sorted-lengths
-head -1 sorted-lengths
-sort lengths | head -1
-wc -l *.pdb | sort | head -1
-wc -l *.pdb | sort | head -1
-wc -l *.pdb | sort -n | head -1
-cd pipes
-wc -l < mydata.dat
 wc -l mydata.dat
 wc -l < mydata.dat
 uniq salmon.txt
@@ -498,3 +379,122 @@ git checkout djangoStuff
 git add .
 git commit -m "changing branch"
 git add .
+cd EhseesiApp
+python manage.py runserver 0.0.0.0:4000
+cd mysite
+python manage.py runserver 0.0.0.0:4000
+python manage.py runserver 0.0.0.0:4000
+python manage.py runserver 0.0.0.0:4000
+python manage.py runserver 0.0.0.0:4000
+git add .
+git status
+git commit -m "Set up the very basic Django framework in the EhseesiApp folder"
+git push origin master
+cd
+git checkout -b lyonsa-master master
+git add .
+git status
+git commit -m "More Django nonsense"
+git push origin master
+git checkout -b lyonsa-master master
+git pull https://github.com/lyonsa/FindStream.git master
+git checkout master
+git merge lyonsa-master
+git checkout master
+git checkout master
+git merge creds.py
+git commit -a
+git checkout master
+git merge lyonsa-master
+git push origin master
+cd EhseesiApp
+cd
+git checkout middle
+git commit -m "Trying to switch branches"
+git checkout middle
+git branch middle1
+git checkout middle1
+django-admin.py startproject mysite
+cd EhseesiApp
+django-admin.py startproject mysite
+django-admin.py startproject mysite
+python manage.py runserver
+cd mysite
+python manage.py runserver
+python manage.py runserver 0.0.0.0:4000
+python manage.py syncdb
+python manage.py syncdb
+python manage.py syncdb
+python manage.py syncdb
+python manage.py syncdb
+python manage.py syncdb
+python manage.py syncdb
+python manage.py syncdb
+python manage.py syncdb
+python manage.py syncdb
+python manage.py syncdb
+python manage.py syncdb
+cd
+cd EhseesiApp
+python manage.py startapp EhseesiApp
+cd mysite
+python manage.py startapp EhseesiApp
+python manage.py sql EhseesiApp
+python manage.py sql EhseesiApp
+python manage.py shell
+git add .
+git commit -m "Re-added Django framework"
+git push origin master
+git status
+git push origin middle1
+python manage.py runserver 0.0.0.0:4000
+python manage.py runserver 0.0.0.0:4000
+python manage.py runserver 0.0.0.0:4000
+python manage.py syncdb
+python manage.py runserver 0.0.0.0:4000/admin
+python manage.py runserver 0.0.0.0:4000
+python manage.py shell
+  def was_published_recently(self):
+python manage.py synchdb
+python manage.py syncdb
+python manage.py syncdb
+python manage.py shell
+python manage.py shell
+python manage.py shell
+python manage.py shell
+python manage.py shell
+python manage.py shell
+python manage.py shell
+cd EhseesiApp
+cd mysite
+python manage.py 0.0.0.0:4000
+python manage.py runserver 0.0.0.0:4000
+python manage.py shell
+python manage.py runserver 0.0.0.0:4000
+python manage.py syncdb
+python manage.py runserver 0.0.0.0:4000
+cd EhseesiApp
+cd EhseesiApp
+python manage.py runserver 0.0.0.0:4000
+cd mysite
+python manage.py runserver 0.0.0.0:4000
+cd EhseesiApp
+cd mysite
+python manage.py runserver 0.0.0.0:4000
+python manage.py runserver 0.0.0.0:4000
+python manage.py runserver 0.0.0.0:4000
+python manage.py runserver 0.0.0.0:4000
+python manage.py runserver 0.0.0.0:4000
+python manage.py runserver 0.0.0.0:4000
+python manage.py runserver 0.0.0.0:4000
+python manage.py runserver 0.0.0.0:4000
+python manage.py runserver 0.0.0.0:4000
+python manage.py runserver 0.0.0.0:4000
+git add .
+git commit -m "Trying, fruitlessly, to even deploy a static web page with Django"
+git push origin middle1
+python manage.py runserver 0.0.0.0:4000
+python manage.py syncdb
+python manage.py runserver 0.0.0.0:4000
+python manage.py runserver 0.0.0.0:4000
+python manage.py runserver 0.0.0.0:4000
