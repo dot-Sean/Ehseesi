@@ -14,7 +14,7 @@ if yn == "y":
     print "Go here and find the PIN:"
     print auth['auth_url']
     
-    oauth_verifier = raw_input('Enter your pin:')
+    oauth_verifier = raw_input('Enter your PIN:')
     
     twitter = Twython(APP_KEY, APP_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
     
