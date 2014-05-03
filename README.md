@@ -1,3 +1,5 @@
+**[For Elliot: the Project's final Google Doc](https://docs.google.com/document/d/1QzRitdP4-GWRlYfw9CxIi4BzgubfXXRwGcuYEMM-7ag/edit)**
+
 **PURPOSE:**
 
 Although it may look like the name of a magical Westerosi dragon princess, Ehseesi is actually a specialized search engine! Pronounced “ay see see”, Ehseesi  aims to help fans of sports and TV shows find their live-streaming content. Inspired by occasional difficulty in finding where to watch Tar Heel basketball games, we hope to create a search utility that locates TV listings and online streams for all available games. It was originally planned as a search engine solely for ACC college sports, hence the odd name.
